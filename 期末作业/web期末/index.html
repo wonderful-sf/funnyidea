@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>校园二手交易平台</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carousel.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><a href="index.html">闲狮</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="item.html">商品列表</a></li>
+                <li><a href="publish.html">发布商品</a></li>
+                <li><a href="personal.html">个人中心</a></li>
+                <li><a href="question.html">常见问题</a></li>
+            </ul>
+        </nav>
+        <div class="lar user-actions">
+            <a href="login.html" class="btn">登录</a>
+            <a href="register.html" class="btn">注册</a>
+        </div> 
+    </header>
+    <main>
+        <!-- 轮播图 -->
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-slide active">
+                    <img src="img/轮播图1 .png" alt="校园二手交易">
+                    <div class="carousel-content">
+                        <h2>发现校园好物</h2>
+                        <p>在这里找到你需要的二手商品</p>
+                        <a href="item.html" class="btn">立即浏览</a>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/轮播图3.png" alt="发布商品">
+                    <div class="carousel-content">
+                        <h2>轻松发布闲置</h2>
+                        <p>让你的闲置物品找到新主人</p>
+                        <a href="publish.html" class="btn">发布商品</a>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/轮播图2.png" alt="安全交易">
+                    <div class="carousel-content">
+                        <h2>安全可靠交易</h2>
+                        <p>校园内面对面交易，安全有保障</p>
+                        <a href="question.html" class="btn">了解更多</a>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/轮播图4.png" alt="加入我们">
+                    <div class="carousel-content">
+                        <h2>加入闲狮社区</h2>
+                        <p>与同学们一起分享闲置好物</p>
+                        <a href="register.html" class="btn">立即注册</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-nav">
+                <button class="carousel-prev">‹</button>
+                <button class="carousel-next">›</button>
+            </div>
+            <div class="carousel-indicators">
+                <span class="indicator active" data-slide="0"></span>
+                <span class="indicator" data-slide="1"></span>
+                <span class="indicator" data-slide="2"></span>
+                <span class="indicator" data-slide="3"></span>
+            </div>
+        </div>
+
+        <!-- 热门商品推荐 -->
+        <section class="featured-products">
+            <h2>热门商品推荐</h2>
+            <div class="products-grid" id="featuredProducts">
+            </div>
+        </section>
+
+        <!-- 平台特色 -->
+        <section class="features">
+            <h2>平台特色</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>安全可靠</h3>
+                    <p>校园内交易，实名认证，安全有保障</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">💰</div>
+                    <h3>免费使用</h3>
+                    <p>平台不收取任何手续费，买卖更划算</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🌱</div>
+                    <h3>绿色环保</h3>
+                    <p>让闲置物品重新焕发价值，环保又实用</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/nav.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/carousel.js"></script>
+</body>
+</html>
